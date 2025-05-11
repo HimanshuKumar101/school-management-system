@@ -40,14 +40,14 @@ export const events = [
   {
     id: 1,
     title: 'Annual Sports Day',
-    date: '2024-03-15',
+    date: '2025-03-15',
     type: 'Sports',
     description: 'Annual sports competition for all classes',
   },
   {
     id: 2,
     title: 'Science Exhibition',
-    date: '2024-04-20',
+    date: '2025-04-20',
     type: 'Academic',
     description: 'Student science projects exhibition',
   },
@@ -89,7 +89,7 @@ export const messages = [
     to: 'John Doe',
     subject: 'Assignment Submission',
     content: 'Please submit your mathematics assignment by Friday.',
-    date: '2024-02-20',
+    date: '2025-02-20',
   },
   // Add more mock messages
 ];
@@ -100,7 +100,7 @@ export const meetings = [
     teacher: 'Dr. Sarah Johnson',
     parent: 'Mr. Doe',
     student: 'John Doe',
-    date: '2024-03-01',
+    date: '2025-03-01',
     time: '14:00',
     status: 'Scheduled',
   },
