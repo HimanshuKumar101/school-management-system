@@ -9,38 +9,28 @@ src/
 ├── components/
 │   ├── auth/
 │   │   ├── Login.js
-│   │   └── ProtectedRoute.js
-│   ├── dashboard/
-│   │   ├── Dashboard.js
-│   │   ├── QuickActions.js
-│   │   └── Metrics.js
+│   │   └── ProtectedRoute.js  
 │   ├── layout/
 │   │   ├── Sidebar.js
 │   │   ├── Header.js
-│   │   └── Layout.js
-│   ├── modules/
-│   │   ├── students/
-│   │   ├── teachers/
-│   │   ├── attendance/
-│   │   ├── events/
-│   │   ├── results/
-│   │   └── meetings/
-│   └── shared/
-│       ├── Button.js
-│       ├── Card.js
-│       └── Table.js
+│   │   └── Layout.js      
 ├── context/
 │   ├── AuthContext.js
 │   └── ThemeContext.js
 ├── data/
 │   └── mockData.js
 ├── pages/
-│   ├── Home.js
-│   ├── Login.js
+│   ├── Attendance.js
+│   ├── Children.js
 │   └── Dashboard.js
-├── utils/
-│   ├── auth.js
-│   └── helpers.js
+│   ├── Events.js
+│   └── Login.js
+│   ├── Message.js
+│   └── Reports.js
+│   ├── Results.js
+│   └── Settings.js
+│   ├── Students.js
+│   └── Teacher.js
 └── App.js
 ```
 
@@ -62,8 +52,7 @@ src/
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd school-management-system
+   git clone https://github.com/HimanshuKumar101/school-management-system.git
    ```
 
 2. Install dependencies:
